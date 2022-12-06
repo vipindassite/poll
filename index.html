@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Poll App</title>
+</head>
+
+<body>
+    <!-- start button -->
+    <button class="button start-button">
+        Start Now 😻
+    </button>
+
+    <!-- name -->
+    <div class="wrapper wrapper-name">
+        <label class="label" for="">Enter Your Cute 😽 Name</label>
+        <input class="input" id="name" type="text" placeholder="Enter Your Name">
+        <input class="input input-button" type="submit" value="Next">
+    </div>
+
+
+    <!-- polls -->
+    <div class="wrapper poll-wrapper">
+        <div class="quetion">Q.1 Who is God? </div>
+        <div class="polls">
+
+        </div>
+        <div class="status">ANs</div>
+        <div class="buttons">
+            <button class="btn prev">Prev</button>
+            <button class="btn next">Next</button>
+        </div>
+    </div>
+
+    <!-- report -->
+    <div class="wrapper report-wrapper">
+        <h2 class="title">Your Report 🏷️</h2>
+        <div class="report-status">You are Awesome </div>
+        <div class="report">
+            <span>🔹 Participate Question : <span class="p-quetion"></span></span>
+            <span>🔹 Right Answer : <span class="right-ans"></span></span>
+            <span>🔹 Wrong Answer : <span class="wrong-ans"></span></span>
+            <span>🔹 Parcentage : <span class="per"></span></span>
+        </div>
+        <a href="/" class="button report-btn btn">Restart</a>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
